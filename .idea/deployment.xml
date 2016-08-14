@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="laravel1">
+    <serverData>
+      <paths name="laravel1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/home/bashman/public_html/laravel1/public" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
