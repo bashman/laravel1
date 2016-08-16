@@ -33,12 +33,26 @@
             .title {
                 font-size: 96px;
             }
+            span {
+                font-size: 48px;
+            }
+
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <!-- <div class="title">Ola k ase</div> -->
+
+                @unless(empty($people))
+                    <span>VACIA ESTA VAINA</span>
+                @endunless
+
+                @foreach ($people as $person)
+                    <span> {{ $person }} </span>
+                @endforeach
+
+
             </div>
         </div>
     </body>

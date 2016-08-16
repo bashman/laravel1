@@ -1,6 +1,6 @@
 <?php
 
-namespace cinema\Providers;
+namespace Cinema\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'cinema\Http\Controllers';
+    protected $namespace = 'Cinema\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.
@@ -25,6 +25,7 @@ class RouteServiceProvider extends ServiceProvider
     public function boot(Router $router)
     {
         //
+        //$router->pattern('id', '[0-9]+');
 
         parent::boot($router);
     }

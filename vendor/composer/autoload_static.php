@@ -23,10 +23,6 @@ class ComposerStaticInit284108d60870808a380c7efef8f52ef2
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
-        'c' => 
-        array (
-            'cinema\\' => 7,
-        ),
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
@@ -84,6 +80,7 @@ class ComposerStaticInit284108d60870808a380c7efef8f52ef2
         'C' => 
         array (
             'ClassPreloader\\' => 15,
+            'Cinema\\' => 7,
             'Carbon\\' => 7,
         ),
     );
@@ -94,10 +91,6 @@ class ComposerStaticInit284108d60870808a380c7efef8f52ef2
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-        ),
-        'cinema\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -210,6 +203,10 @@ class ComposerStaticInit284108d60870808a380c7efef8f52ef2
         'ClassPreloader\\' => 
         array (
             0 => __DIR__ . '/..' . '/classpreloader/classpreloader/src',
+        ),
+        'Cinema\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
         'Carbon\\' => 
         array (
